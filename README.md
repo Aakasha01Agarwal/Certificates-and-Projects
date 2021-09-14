@@ -1,5 +1,5 @@
 
-#"Research is nothing but formalized curiosity"#
+# "Research is nothing but formalized curiosity"
 
 This Repository contains all the certificates I have achieved in my academic career since the  1st standard.
 
