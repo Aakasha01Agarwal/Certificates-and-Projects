@@ -1,0 +1,35 @@
+SNAKE GAME USING VOICE COMMAND
+
+SUBMITTED BY- AAKASH AGARWAL  (191010201)
+	      PIYUSH RAWAT    (19101227)	
+	      AMULYA VARSHNEY (191010204)
+
+The follwing libraries and modules are used in the code :
+
+1 )Pygame- This is an open source free to use library in python. We have used Pygame to create our snake and the window where the game will be played.
+           pygame.init() will attempt to initialize all the pygame modules for you. Not all pygame modules need to be initialized, but this will automatically initialize the ones that do.
+           display.fill(window_color) will fill white color into game window and pygame.display.update() allows only a portion of the screen to be updated, instead of the entire area. If no argument is passed, it updates the entire Surface area.
+	   pygame.draw.rect() will draw a rectangle corresponding to given arguments which will represent our snake and display.blit() will show the image of an apple.
+	   Game Logic:
+
+Now it’s time to define game rules. As you know, there must be some rules which makes a game playable.
+
+Rule 1: If the snake collapses with itself or with boundaries, game over.
+
+Rule 2:  Moving the snake to a new position
+
+In our game, the snake will continue to move in one direction until a button is pressed. To move the snake, we need to add one unit to the head and remove one unit from the tail.
+
+Rule 3. If the snake eats an apple, the apple moves to a new position and snake length increases.
+
+
+Displaying Final Score:
+
+After the game is over, we want to display the final score. Here, I have defined a function ‘display_final_score’, which takes final score and text to be displayed as its arguments to display in the game window.
+
+
+2) Numpy- We used Numpy so that we can make use of the arrays in python. This will help us in creating the snake and recording its position.
+
+2) speech_recognition- This library helps in getting the voice inout and coverting it to text then we will use that 
+text and search if there are any keywords such as "up","down","left","right", which will help us in changing the direction of our snake
+	
